@@ -34,13 +34,3 @@ for (const m = 0; m < 3; m++) { // Error: Assignment to constant variable
   console.log(m);
 }
 
-// ** Quick Exercise **
-
-const funcs = [];
-for (var i = 0; i < 3; i++) {
-  funcs.push(function() { return i; });
-}
-console.log(funcs[0]()); // ?
-console.log(funcs[1]()); // ?
-console.log(funcs[2]()); // ?
-
